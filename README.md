@@ -3,9 +3,10 @@ I'm Jacob, a web developer from the US.
 
 **About me**
 
-- 💼 Fullstack Engineer at [Bayer Crop Science](https://www.bayer.com/en/agriculture)
+- 💼 Sr. Software Engineer at [DNA Nexus]([https://www.bayer.com/en/agriculture](https://www.dnanexus.com/))
 - 🎮 Hobbist game developer after dark!
 - 🦀 Rust enthusiast
+- Nix lover
 
 
 ![Jacobs's GitHub stats](https://github-readme-stats.vercel.app/api?username=lecoqjacob&show_icons=true)
