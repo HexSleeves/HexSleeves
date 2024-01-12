@@ -9,10 +9,10 @@ I'm Jacob, a web developer from the US.
 - Nix lover
 
 
-![Jacobs's GitHub stats](https://github-readme-stats.vercel.app/api?username=lecoqjacob&show_icons=true)
+![Jacobs's GitHub stats](https://github-readme-stats.vercel.app/api?username=n16hth4wkk&show_icons=true)
 
 
 <a href="https://twitter.com/jacob_lecoq">
-  <img align="right" alt="Jacob LeCoq | Twitter" width="21px" src="https://raw.githubusercontent.com/lecoqjacob/lecoqjacob/master/assets/twitter.svg" />
+  <img align="right" alt="Jacob LeCoq | Twitter" width="21px" src="https://raw.githubusercontent.com/n16hth4wkk/n16hth4wkk/master/assets/twitter.svg" />
 </a>
 
