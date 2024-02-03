@@ -27,37 +27,37 @@
   <tr>
     <td align="center" width="96">
       <a href="#brogrammer-tech">
-        <img src="./img/go-flat.svg" width="48" height="48" alt="Golang" />
+        <img src="./imgs/go-flat.svg" width="48" height="48" alt="Golang" />
       </a>
       <br>Go
     </td>
     <td align="center" width="96">
       <a href="#brogrammer-tech">
-        <img src="./img/python-original.svg" width="48" height="48" alt="Python" />
+        <img src="./imgs/node-js.svg" width="48" height="48" alt="Python" />
       </a>
       <br>NodeJS
     </td>
     <td align="center" width="96">
       <a href="#brogrammer-tech">
-        <img src="./img/typescript-original.svg" width="48" height="48" alt="TypeScript" />
+        <img src="./imgs/typescript-original.svg" width="48" height="48" alt="TypeScript" />
       </a>
       <br>TypeScript
     </td>
     <td align="center" width="96"> 
       <a href="#brogrammer-tech" >
-        <img src="./img/docker-original.svg" width="48" height="48" alt="Docker" />
+        <img src="./imgs/docker-original.svg" width="48" height="48" alt="Docker" />
       </a>
       <br>Docker
     </td>
     <td align="center"  width="96">
       <a href="#brogrammer-tech">
-        <img src="./img/debian-original.svg" width="48" height="48" alt="Fedora Silverblue" />
+        <img src="./imgs/fedora.svg" width="48" height="48" alt="Fedora Silverblue" />
       </a>
       <br>Fedora Silverblue
     </td>
     <td align="center"  width="96">
       <a href="#brogrammer-tech">
-        <img src="./img/debian-original.svg" width="48" height="48" alt="Fedora Silverblue" />
+        <img src="./imgs/ublue.png" width="48" height="48" alt="uBlue OS" />
       </a>
       <br>uBlue OS
     </td>
