@@ -83,5 +83,5 @@
 <!-- links -->
 
 [Bluebuild]: https://blue-build.org "Bluebuild Home"
-[issues page]: https://github.com/MacroPower/MacroPower/issues "MacroPower/issues"
+[issues page]: https://github.com//bayou-brogrammer//bayou-brogrammer/issues "BayouBrogrammer/issues"
 [linkedin]: https://www.linkedin.com/in/colvinjm "Jacob Colvin LinkedIn"
