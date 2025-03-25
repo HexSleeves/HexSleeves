@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=2C68F7&center=true&vCenter=true&width=500&lines=Hi+there%2C+I'm+Jacob+LeCoq;Senior+Backend+Engineer;K8s+%26+OSS+Enthusiast;Bluebuild+Creator" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=2C68F7&center=true&vCenter=true&width=500&lines=Hi+there%2C+I'm+Jacob+LeCoq;Senior+Fullstack+React+Engineer;Go+%26+TypeScript+Rust+Developer;Bluebuild+Creator;OSS+Enthusiast" alt="Typing SVG" />
   </a>
 </h1>
 
@@ -22,7 +22,7 @@
 
 - 🏢 Senior Fullstack React Engineer at **Bayer Crop Science**
 - 🌱 Currently developing **[Bluebuild]** - an innovative OS customization project
-- 💬 Ask me about **Go**, **TypeScript**, and **OSS**
+- 💬 Ask me about **Go**, **TypeScript**, **Rust**, and **OSS**
 - 📫 Reach me: Open an issue on my **[issues page]** or connect on **[LinkedIn]**
 - 🌐 Located at **[+30.146240, -91.959824]** (Baton Rouge, LA area)
 
