@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=2C68F7&center=true&vCenter=true&width=500&lines=Hi+there%2C+I'm+Jacob+LeCoq;Senior+Fullstack+React+Engineer;Go+%26+TypeScript+Rust+Developer;Bluebuild+Creator;OSS+Enthusiast" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=2C68F7&center=true&vCenter=true&width=500&lines=Hi%2C+my+name+is+Jacob+LeCoq;Senior+Fullstack+React+Engineer;Go%2C+Typescript%2C+%26+Rust+Developer;BlueBuild+Contributor;OSS+Enthusiast" alt="Typing SVG" />
   </a>
 </h1>
 
@@ -9,7 +9,7 @@
     <img alt="GitHub followers" src="https://img.shields.io/github/followers/bayou-brogrammer?style=for-the-badge&logo=github&logoColor=white&labelColor=181717&color=2C68F7">
   </a>
   <a href="https://www.linkedin.com/in/jacob-lecoq">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Jacob_LeCoq-2C68F7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Jacob_LeCoq-2C68F7?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
 </p>
 
@@ -77,8 +77,16 @@
 
 <div align="center">
   <h3>🤝 Open Source Contributor</h3>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+  <!-- Go -->
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"/>
+  <!-- Typescript -->
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <!-- Rust -->
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"/>
+</div>
+<div align="center">
+  <!-- Linux -->
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
   <img src="https://img.shields.io/badge/Open_Source-3DA639?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Open Source"/>
 </div>
