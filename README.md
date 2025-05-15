@@ -5,8 +5,8 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/bayou-brogrammer?tab=followers">
-    <img alt="GitHub followers" src="https://img.shields.io/github/followers/bayou-brogrammer?style=for-the-badge&logo=github&logoColor=white&labelColor=181717&color=2C68F7">
+  <a href="https://github.com/HexSleeves?tab=followers">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/HexSleeves?style=for-the-badge&logo=github&logoColor=white&labelColor=181717&color=2C68F7">
   </a>
   <a href="https://www.linkedin.com/in/jacob-lecoq">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Jacob_LeCoq-2C68F7?style=for-the-badge&logo=linkedin&logoColor=white">
@@ -14,8 +14,8 @@
 </p>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bayou-brogrammer&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bayou-brogrammer&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=HexSleeves&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="170"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HexSleeves&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="170"/>
 </div>
 
 ## 💡 About Me
@@ -72,7 +72,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bayou-brogrammer&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HexSleeves&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
 
 <div align="center">
@@ -92,10 +92,10 @@
 </div>
 
 [Bluebuild]: https://blue-build.org "Bluebuild Home"
-[issues page]: https://github.com/bayou-brogrammer/bayou-brogrammer/issues "BayouBrogrammer/issues"
+[issues page]: https://github.com/HexSleeves/HexSleeves/issues "BayouBrogrammer/issues"
 [LinkedIn]: https://www.linkedin.com/in/jacob-lecoq "Jacob LeCoq LinkedIn"
 
 <!-- Footer -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=bayou-brogrammer&style=flat-square&color=blue" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=HexSleeves&style=flat-square&color=blue" alt="Profile views"/>
 </p>
