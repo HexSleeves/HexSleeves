@@ -43,17 +43,12 @@ About six years across Bayer's digital platforms, the last stretch through Dexia
   <a href="https://github.com/HexSleeves/skills"><img src="./profile/pin-skills.svg" alt="skills"></a>
 </p>
 
-- **[tailscale-mcp](https://github.com/HexSleeves/tailscale-mcp)**: an MCP server that lets agents drive Tailscale's CLI and API. My most-starred repo.
-- **[inkwell](https://github.com/HexSleeves/inkwell)**: a Markdown publishing platform in Rust, built end to end by a team of AI agents running on Paperclip.
-- **[dvr](https://github.com/HexSleeves/dvr)**: a jj-powered daemon that snapshots every state of your working copy, so agents (and I) can rewind any state of the working copy.
-- **[skills](https://github.com/HexSleeves/skills)**: the agent skills I use every day, installable with `npx skills`.
-
 ## Inventory
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,go,rust,react,nodejs,nestjs,aws,terraform,docker,linux,fedora,neovim&theme=dark&perline=12">
-    <img src="https://skillicons.dev/icons?i=ts,go,rust,react,nodejs,nestjs,aws,terraform,docker,linux,fedora,neovim&theme=light&perline=12" alt="TypeScript, Go, Rust, React, Node.js, NestJS, AWS, Terraform, Docker, Linux, Fedora, Neovim">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,go,rust,react,nodejs,nestjs,aws,terraform,docker,linux,githubactions,neovim&theme=dark&perline=12">
+    <img src="https://skillicons.dev/icons?i=ts,go,rust,react,nodejs,nestjs,aws,terraform,docker,linux,githubactions,neovim&theme=light&perline=12" alt="TypeScript, Go, Rust, React, Node.js, NestJS, AWS, Terraform, Docker, Linux, GitHub Actions, Neovim">
   </picture>
 </p>
 

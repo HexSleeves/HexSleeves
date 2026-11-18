@@ -1,15 +1,1 @@
-
-    <svg width="576.5"  height="120" viewBox="0 0 576.5 120" fill="#ffffff00" xmlns="http://www.w3.org/2000/svg">
-    <style>
-    .text { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8B5CC7 }
-    .small { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #7D8F89 }
-    .gray { fill: #858585 }
-    </style>
-    <rect x="0.5" y="0.5" width="575.5" height="99%" rx="4.5" fill="#ffffff00" stroke="#e4e2e2"/>
-    <text x="25" y="45" class="text">Something went wrong! file an issue at https://tiny.one/readme-stats</text>
-    <text data-testid="message" x="25" y="55" class="text small">
-      <tspan x="25" dy="18">Resource not accessible by integration</tspan>
-      <tspan x="25" dy="18" class="gray">OK</tspan>
-    </text>
-    </svg>
-  
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="165" viewBox="0 0 300 165" role="img" aria-label="GitHub stats for HexSleeves"><style>text { font-family: 'Segoe UI', Ubuntu, -apple-system, Helvetica, Arial, sans-serif; }</style><rect x="0.5" y="0.5" width="299" height="164" rx="10" fill="none" stroke="#7D8F8955"/><text x="24" y="38" fill="#8B5CC7" font-size="18" font-weight="600">Character stats</text><text x="24" y="72" fill="#7D8F89" font-size="14">Stars earned</text><text x="276" y="72" fill="#C9971C" font-size="14" font-weight="700" text-anchor="end">187</text><text x="24" y="96" fill="#7D8F89" font-size="14">Original repos</text><text x="276" y="96" fill="#C9971C" font-size="14" font-weight="700" text-anchor="end">66</text><text x="24" y="120" fill="#7D8F89" font-size="14">Followers</text><text x="276" y="120" fill="#C9971C" font-size="14" font-weight="700" text-anchor="end">44</text><text x="24" y="144" fill="#7D8F89" font-size="14">Years shipping</text><text x="276" y="144" fill="#C9971C" font-size="14" font-weight="700" text-anchor="end">10</text></svg>
