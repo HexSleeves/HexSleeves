@@ -47,8 +47,8 @@ About six years across Bayer's digital platforms, the last stretch through Dexia
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,go,rust,react,nodejs,nestjs,aws,terraform,docker,linux,githubactions,neovim&theme=dark&perline=12">
-    <img src="https://skillicons.dev/icons?i=ts,go,rust,react,nodejs,nestjs,aws,terraform,docker,linux,githubactions,neovim&theme=light&perline=12" alt="TypeScript, Go, Rust, React, Node.js, NestJS, AWS, Terraform, Docker, Linux, GitHub Actions, Neovim">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cgo%2Crust%2Creact%2Cnodejs%2Cnestjs%2Caws%2Cterraform%2Cdocker%2Clinux%2Cgithubactions%2Cneovim&theme=dark&perline=12">
+    <img src="https://skillicons.dev/icons?i=ts%2Cgo%2Crust%2Creact%2Cnodejs%2Cnestjs%2Caws%2Cterraform%2Cdocker%2Clinux%2Cgithubactions%2Cneovim&theme=light&perline=12" alt="TypeScript, Go, Rust, React, Node.js, NestJS, AWS, Terraform, Docker, Linux, GitHub Actions, Neovim">
   </picture>
 </p>
 
