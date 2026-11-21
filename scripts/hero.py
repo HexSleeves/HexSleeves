@@ -23,20 +23,26 @@ THEMES = {
 }
 
 ROOMS = [
-    dict(name="Bayer", x=1, y=1, w=20, h=6, items={(6, 3): "$", (14, 5): "!", (9, 2): "="}),
-    dict(name="Liatrio", x=31, y=0, w=20, h=6, items={(36, 2): "?", (46, 2): "["}),
-    dict(name="Adobe", x=61, y=2, w=22, h=6, items={(70, 4): "&", (79, 6): ">"}),
+    dict(name="Bayer", x=1, y=1, w=16, h=6, items={(5, 2): "$", (13, 5): "!", (9, 2): "="}),
+    dict(name="Liatrio", x=22, y=0, w=16, h=6, items={(26, 2): "?", (33, 2): "["}),
+    dict(name="Adobe", x=43, y=2, w=16, h=6, items={(49, 3): "&"}),
+    dict(name="Hundred Health", x=64, y=1, w=19, h=6, items={(68, 3): "!", (73, 2): "!", (78, 4): "%", (80, 2): ">"}),
 ]
-DOORS = [(20, 3), (31, 3), (50, 4), (61, 4)]
-HALLS = [(c, 3) for c in range(21, 31)] + [(c, 4) for c in range(51, 61)]
+DOORS = [(16, 3), (22, 3), (37, 4), (43, 4), (58, 5), (64, 5)]
+HALLS = [(c, 3) for c in range(17, 22)] + [(c, 4) for c in range(38, 43)] + [(c, 5) for c in range(59, 64)]
+UPCOMING = "Hundred Health"
 
 
 def walk_path():
-    cells = [(c, 4) for c in range(4, 20)]
-    cells += [(20, 3)] + [(c, 3) for c in range(21, 32)]
-    cells += [(c, 3) for c in range(32, 41)] + [(c, 4) for c in range(41, 62)]
-    cells += [(c, 4) for c in range(62, 70)] + [(c, 5) for c in range(70, 79)]
+    cells = [(c, 4) for c in range(3, 16)]
+    cells += [(16, 3)] + [(c, 3) for c in range(17, 29)]
+    cells += [(c, 4) for c in range(29, 51)]
+    cells += [(c, 5) for c in range(51, 65)]
     return cells
+
+
+def room_id(name):
+    return "room-" + name.replace(" ", "")
 
 
 def grid():
@@ -97,7 +103,7 @@ def render(theme):
     p = THEMES[theme]
     width = PAD_X * 2 + COLS * CW
     log_top = MAP_TOP + ROWS * CH + 28
-    t_liatrio, t_adobe = arrival_time("Liatrio"), arrival_time("Adobe")
+    t_liatrio, t_adobe, t_next = (arrival_time(n) for n in ("Liatrio", "Adobe", UPCOMING))
     path = walk_path()
 
     css = [
@@ -112,13 +118,15 @@ def render(theme):
         step_keyframes("follow", path, offset_steps=1),
         reveal("revealLiatrio", t_liatrio - 0.6),
         reveal("revealAdobe", t_adobe - 0.6),
+        reveal("revealNext", t_next - 0.6),
         reveal("log1", 0.4),
         reveal("log2", t_liatrio),
         reveal("log3", t_adobe + 0.4),
-        reveal("log4", WALK_END + 0.8),
+        reveal("log4", WALK_END + 0.2),
+        reveal("log5", WALK_END + 1.0),
         "#at { animation-name: walk; } #coq { animation-name: follow; }",
-        "#room-Liatrio { animation-name: revealLiatrio; } #room-Adobe { animation-name: revealAdobe; }",
-        "#log1 { animation-name: log1; } #log2 { animation-name: log2; } #log3 { animation-name: log3; } #log4 { animation-name: log4; }",
+        f"#room-Liatrio {{ animation-name: revealLiatrio; }} #room-Adobe {{ animation-name: revealAdobe; }} #{room_id(UPCOMING)} {{ animation-name: revealNext; }}",
+        " ".join(f"#log{i} {{ animation-name: log{i}; }}" for i in range(1, 6)),
         "@keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }",
         ".cursor { animation: blink 1.1s step-end infinite; }",
         "@media (prefers-reduced-motion: reduce) { .anim, .cursor { animation: none; } "
@@ -137,8 +145,8 @@ def render(theme):
     body = []
     for name in ("Bayer", None):
         body += groups[name]
-    for name in ("Liatrio", "Adobe"):
-        body.append(f'<g id="room-{name}" class="anim">{"".join(groups[name])}</g>')
+    for name in ("Liatrio", "Adobe", UPCOMING):
+        body.append(f'<g id="{room_id(name)}" class="anim">{"".join(groups[name])}</g>')
 
     body.append(f'<g id="coq" class="anim walker"><text x="{PAD_X + CW / 2}" y="{MAP_TOP}" class="coq" text-anchor="middle">c</text></g>')
     body.append(f'<g id="at" class="anim walker"><text x="{PAD_X + CW / 2}" y="{MAP_TOP}" class="hero" text-anchor="middle">@</text></g>')
@@ -147,15 +155,16 @@ def render(theme):
         ("log1", "Welcome, Jacob. You start at Bayer with a 22-app Nx monorepo and a Terraform map."),
         ("log2", "You enter Liatrio and build an AI software factory. The PRs start fixing themselves."),
         ("log3", "You arrive at Adobe. The agents here are friendly."),
-        ("log4", "Your pet rooster crows: cocorico!"),
+        ("log4", "A door to Hundred Health creaks open. Potions glint inside."),
+        ("log5", "Your pet rooster crows: cocorico!"),
     ]
     for i, (lid, msg) in enumerate(log):
         body.append(f'<text id="{lid}" class="anim" x="{PAD_X}" y="{log_top + i * 22}">{esc(msg)}</text>')
 
-    status_y = log_top + 4 * 22 + 18
+    status_y = log_top + len(log) * 22 + 18
     body.append(f'<line x1="{PAD_X}" x2="{width - PAD_X}" y1="{status_y - 22}" y2="{status_y - 22}" stroke="{p["edge"]}"/>')
     body.append(f'<text x="{PAD_X}" y="{status_y}" class="dim">Jacob the Engineer   St:Go  Dx:TypeScript  In:Rust  Wis:agents</text>')
-    body.append(f'<text x="{PAD_X}" y="{status_y + 22}" class="dim">Dlvl:3 Adobe   Pet:rooster   HP:caffeinated   T:2016   Lafayette, LA</text>')
+    body.append(f'<text x="{PAD_X}" y="{status_y + 22}" class="dim">Dlvl:3 Adobe  Next:Hundred Health  Pet:rooster  HP:caffeinated  T:2016  Lafayette, LA</text>')
 
     height = status_y + 22 + 30
     head = [
@@ -166,7 +175,7 @@ def render(theme):
 
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" '
-        f'aria-label="Jacob LeCoq. A roguelike map: @ walks from Bayer through Liatrio to Adobe, followed by a pet rooster.">'
+        f'aria-label="Jacob LeCoq. A roguelike map: @ walks from Bayer through Liatrio and Adobe to the door of Hundred Health, followed by a pet rooster.">'
         f'<style>{" ".join(css)}</style>'
         f'<rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="12" fill="{p["bg"]}" stroke="{p["edge"]}" stroke-width="2"/>'
         + "".join(head) + "".join(body) + "</svg>\n"

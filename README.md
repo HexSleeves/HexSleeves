@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-    <img src="./assets/hero-light.svg" width="900" alt="Jacob LeCoq. A roguelike map where @ walks from Bayer through Liatrio to Adobe, followed by a pet rooster.">
+    <img src="./assets/hero-light.svg" width="900" alt="Jacob LeCoq. A roguelike map where @ walks from Bayer through Liatrio and Adobe to the door of Hundred Health, followed by a pet rooster.">
   </picture>
 </p>
 
@@ -14,6 +14,10 @@
 I'm a software engineer in Lafayette, Louisiana. I've spent ten years shipping backends, frontends, and the cloud plumbing between them. These days most of my work is getting AI agents to open PRs, fix them, and know when to ask a human.
 
 ## Quest log
+
+### Hundred Health (next)
+
+Joining Hundred Health after Adobe.
 
 ### Adobe (now)
 
